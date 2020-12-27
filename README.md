@@ -19,3 +19,8 @@ Type the command **npm start**/**npm run dev** in your terminal..
 the **.env** file. This additional attribute is used to reinforce different schema for customer and admin.For simplicity it is set to **admin**
 > - To login as a customer just do a user signup and interact with the model.
 
+## On a final note
+This app is created in heroku and pushed from the local cli.So none of the additional commits from the local repository will be visible to you.This repository in github is used
+to contain the code that is deployed, so everything is dumped in a single commit and this repo will not have a environment setup in it.If you want to clone the demo app in heroku in your local machine use this
+**heroku git:clone -a library-system-manager**
+
